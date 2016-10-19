@@ -1,5 +1,5 @@
 #main{
-    width: 700px;
+    width: 800px;
     height: 500px;
     background-color: white;
     border-style: solid;
@@ -16,20 +16,22 @@
     font-family: Copperplate / Copperplate Gothic Light, sans-serif;
 }
 
-
+form{
+    padding-top: 50px;
+}
   
     
-}
-}
+
+
 .move{
     padding-left: 180px;
     padding-top: 50px;
 }
 
 
-}
+
  .button{
-   
+   color: blue;
  }
 
 #userGuess {
@@ -41,3 +43,4 @@
     color: black;
     font-size: 30px;
 }
+
