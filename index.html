@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>J.Gaines Psychic Game</title>
 
 <link rel = "stylesheet" type="text/css" href = "assets/css/style.css">
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -13,11 +13,11 @@
 <!--  Bootstrap-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<!-- I don't remember why I needed to put both of these here. <smile> Do they both do the same thing? It was from my bootstrap homework. Didn't want to leave anything out -->
+<!-- I don't remember why I needed to put both of these here. <smile> Do they both do the same thing? It was from my bootstrap homework. Didn't want to leave anything out 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+-->
 <!-- Animate.css -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
@@ -38,25 +38,27 @@
 <form id="form">
 
 <div class="animated tada">
-<img src= "assets/images/thinking2.png" align = "left" >
-<h2 style="color:black; font-size: 40px; text-align: center"> Guess a Number from 1 - 20 </h2>
+<img src= "assets/images/logomovement.gif" align = "left" >
+<h1 style="color:black; font-size: 35px; text-align: "center"><strong> "Psychic Game" </strong></h1>
+<h2 style="color:black; font-size: 35px; text-align: "left"><strong><em> Guess a Number from 1 - 20</strong></em></h2>
 </div>
-
++
 <div class= "move">
 <input type = "text" id="wholeNumber">
 <input type="button" onclick="guessNum();" value= "Guess" class="button">
 </div>
 
-</form>
 
 <div>
     <p id = "userGuess"> </p>
     <p id = "counter"> </p>
-    <p id = "wins"> </p>
+
 
 </div>
+</form>
+<input type ="button" onclick="reset();" value="Press Here To Play Again" class="button2">
 
-<input type ="button" onclick="reset();" value="Press Here To Play Again" class="button">
+
 </section>
 <script src = "assets/javascript/game.js" ></script>
 </body>

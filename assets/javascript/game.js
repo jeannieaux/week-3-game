@@ -8,7 +8,7 @@ function guessNum()
   // get info from the form
     var guess = document.forms["form"]["wholeNumber"].value;
 
-// function to determine whether or not value is a number
+// Just learned this function. This is to determine whether or not value is a number
 isNaN(guess)
 {
     document.getElementById("userGuess").innerHTML = "Please enter a number";//write message in guess line
@@ -23,24 +23,25 @@ if (guess == randomNum)
     count + " guesses to win.";
 }
 //low
-if (guess < randomNum)
+else if (guess < randomNum)
   {
-  document.getElementById("userGuess").innerHTML = "Your guess is too low. Keep guessing!";
+  document.getElementById("userGuess").innerHTML = "Your guess is too low! Guess higher!";
   count ++;
   document.getElementById("counter").innerHTML = "Number of guesses: " + count;
 }
 //high
-if (guess > randomNum)
+else if (guess > randomNum)
 {
-  document.getElementById("userGuess").innerHTML = "Too high. Guess again";
+  document.getElementById("userGuess").innerHTML = "This is too high! Guess again!";
   count ++;
   document.getElementById("counter").innerHTML = "Number of guesses: " + count;
 }
-}
+
 //reset the game, clear all fields 
 function reset() {
     document.getElementById("form").reset();
     document.getElementById("userGuess").innerHTML = "";
     document.getElementById("counter").innerHTML = "";
     count = 0;
+}
 }

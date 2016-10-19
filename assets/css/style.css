@@ -1,6 +1,6 @@
 #main{
-    width: 800px;
-    height: 500px;
+    width: 850px;
+    height: 550px;
     background-color: white;
     border-style: solid;
     border-width: thick;
@@ -16,31 +16,51 @@
     font-family: Copperplate / Copperplate Gothic Light, sans-serif;
 }
 
+.button{
+   color: white;
+   height: 40px;
+   width: 100px;
+   background: dodgerblue;
+   font-size: 20px;
+   border-radius: 25px;
+ }
+
+.button2{
+   color: white;
+   height: 40px;
+   width: 300px;
+   background: dodgerblue;
+   font-size: 20px;
+   border-radius: 25px;
+ }
+#counter{
+    color: black;
+    font-size: 30px;
+}
+
 form{
-    padding-top: 50px;
+    padding-top: 20px;
+    padding-left: 30px;
 }
   
-    
+#wholeNumber{
+    border-width: thick;
+    font-weight: bold;
 
+}  
+img{
 
+}  
 .move{
     padding-left: 180px;
     padding-top: 50px;
 }
 
-
-
- .button{
-   color: blue;
- }
-
 #userGuess {
     color: black;
-    font-size: 30px ;
+    font-size: 30px;
+
 }
 
-#counter{
-    color: black;
-    font-size: 30px;
-}
+
 
