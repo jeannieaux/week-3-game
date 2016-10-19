@@ -1,0 +1,43 @@
+#main{
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    border-style: solid;
+    border-width: thick;
+    border-color: black;
+    border-radius: 25px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 35px;
+    margin: auto;
+    font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+}
+
+
+  
+    
+}
+}
+.move{
+    padding-left: 180px;
+    padding-top: 50px;
+}
+
+
+}
+ .button{
+   
+ }
+
+#userGuess {
+    color: black;
+    font-size: 30px ;
+}
+
+#counter{
+    color: black;
+    font-size: 30px;
+}
